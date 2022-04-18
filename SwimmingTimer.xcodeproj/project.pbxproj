@@ -7,18 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7800E61F2795217B00D330D5 /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7800E61E2795217B00D330D5 /* SheetView.swift */; };
+		7850FF5F279521B400128CD8 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7850FF5E279521B400128CD8 /* PopUpView.swift */; };
+		787020C3279520CD003DD7AE /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787020C2279520CD003DD7AE /* CircleView.swift */; };
+		78795B802795213E009DF493 /* RestSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78795B7F2795213E009DF493 /* RestSheetView.swift */; };
 		789D11522795207D001DB953 /* SwimmingTimerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789D11512795207D001DB953 /* SwimmingTimerApp.swift */; };
 		789D11542795207D001DB953 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789D11532795207D001DB953 /* ContentView.swift */; };
 		789D11562795207D001DB953 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789D11552795207D001DB953 /* Assets.xcassets */; };
 		789D11592795207D001DB953 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789D11582795207D001DB953 /* Preview Assets.xcassets */; };
+		789D11602795208E001DB953 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789D115F2795208E001DB953 /* HomeView.swift */; };
+		78F6AC87279521070016B21E /* StepperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F6AC86279521070016B21E /* StepperView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7800E61E2795217B00D330D5 /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		7850FF5E279521B400128CD8 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
+		787020C2279520CD003DD7AE /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
+		78795B7F2795213E009DF493 /* RestSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestSheetView.swift; sourceTree = "<group>"; };
 		789D114E2795207D001DB953 /* SwimmingTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwimmingTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		789D11512795207D001DB953 /* SwimmingTimerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimmingTimerApp.swift; sourceTree = "<group>"; };
 		789D11532795207D001DB953 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		789D11552795207D001DB953 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		789D11582795207D001DB953 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		789D115F2795208E001DB953 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		78F6AC86279521070016B21E /* StepperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +65,12 @@
 			children = (
 				789D11512795207D001DB953 /* SwimmingTimerApp.swift */,
 				789D11532795207D001DB953 /* ContentView.swift */,
+				789D115F2795208E001DB953 /* HomeView.swift */,
+				787020C2279520CD003DD7AE /* CircleView.swift */,
+				78F6AC86279521070016B21E /* StepperView.swift */,
+				78795B7F2795213E009DF493 /* RestSheetView.swift */,
+				7800E61E2795217B00D330D5 /* SheetView.swift */,
+				7850FF5E279521B400128CD8 /* PopUpView.swift */,
 				789D11552795207D001DB953 /* Assets.xcassets */,
 				789D11572795207D001DB953 /* Preview Content */,
 			);
@@ -137,7 +155,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				787020C3279520CD003DD7AE /* CircleView.swift in Sources */,
+				7800E61F2795217B00D330D5 /* SheetView.swift in Sources */,
+				7850FF5F279521B400128CD8 /* PopUpView.swift in Sources */,
+				78F6AC87279521070016B21E /* StepperView.swift in Sources */,
+				78795B802795213E009DF493 /* RestSheetView.swift in Sources */,
 				789D11542795207D001DB953 /* ContentView.swift in Sources */,
+				789D11602795208E001DB953 /* HomeView.swift in Sources */,
 				789D11522795207D001DB953 /* SwimmingTimerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
